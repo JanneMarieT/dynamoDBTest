@@ -1,0 +1,19 @@
+{
+  "name": "dynamodbtest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@cyclic.sh/dynamodb": "^0.0.33",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
